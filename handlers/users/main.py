@@ -23,6 +23,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     #elif message.text=='/start':
     #    await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+    #await state.finish()
     else:
         await message.reply(Font_1(message.text))
 
@@ -39,6 +40,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_2(message.text))
 
@@ -55,6 +57,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_3(message.text))
 
@@ -71,6 +74,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_4(message.text))
 
@@ -87,6 +91,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_5(message.text))
 
@@ -103,6 +108,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_6(message.text))
 
@@ -119,6 +125,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_7(message.text))
 
@@ -135,6 +142,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_8(message.text))
 
@@ -151,6 +159,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_9(message.text))
 
@@ -167,6 +176,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_10(message.text))
 
@@ -183,6 +193,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_11(message.text))
 
@@ -199,6 +210,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_12(message.text))
 
@@ -215,6 +227,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_13(message.text))
 
@@ -231,6 +244,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_14(message.text))
 
@@ -247,6 +261,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_15(message.text))
 
@@ -263,6 +278,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_16(message.text))
 
@@ -279,6 +295,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_17(message.text))
 
@@ -295,6 +312,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_18(message.text))
 
@@ -312,6 +330,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_19(message.text))
 
@@ -328,6 +347,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_20(message.text))
 
@@ -345,6 +365,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_21(message.text))
 
@@ -362,6 +383,7 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_22(message.text))
 
@@ -379,5 +401,6 @@ async def calling(message: types.Message, state: FSMContext):
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_23(message.text))
