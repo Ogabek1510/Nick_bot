@@ -21,9 +21,9 @@ async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
         await message.answer("Asosiy menyudasiz!", reply_markup=fonts_menu)
         await state.finish()
-    #elif message.text=='/start':
-    #    await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
-    #await state.finish()
+    elif message.text=='/start':
+        await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
+        await state.finish()
     else:
         await message.reply(Font_1(message.text))
 
