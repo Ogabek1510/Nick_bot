@@ -7,7 +7,7 @@ menu_buttons = [
     'ꪑꪱꪚꪋઝꪱ', 'M⃟ I⃟ R⃟ A⃟ K⃟ I⃟', 'm̷i̷r̷a̷k̷i̷', '🄼🄸🅁🄰🄺🄸', 'ɱίરλκί',
     'ᴹᴵᴿᴬᴷᴵ', 'ᎷᏆᎡᎪᏦᏆ', 'ꪑⲒℜꪋḰⲒ', 'm꙰ i꙰ r꙰ a꙰ k꙰ i꙰', '🇲 🇮 🇷 🇦 🇰 🇮',
     'ⓜⓘⓡⓐⓚⓘ', '͜͡🅜͜͡🅘͜͡🅡͜͡🅐͜͡🅚͜͡🅘͜͡', 'm̷̷i̷̷r̷̷a̷̷k̷̷i̷̷', 'ᴍ࿆ᮀɪ࿆ᮀʀ࿆ᮀᴀ࿆ᮀᴋ࿆ᮀɪ࿆ᮀ',
-    'font 28',
+    'ⲙྀᤢiྀᤢrྀᤢᥲྀᤢκྀᤢiྀᤢ',
 ]
 
 fonts_menu = ReplyKeyboardMarkup(row_width=2, resize_keyboard = True)
