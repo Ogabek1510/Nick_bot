@@ -10,6 +10,6 @@ async def bot_help(message: types.Message):
             "/start - Botni ishga tushirish",
             "/help - Yordam",
             "Botdan foydalanish uchun /start komandasini bosing va o'zingizga yoqqan fontni tanlang!",
-            "Botdan qaytgan, tayyor bo'lgan fontdan nusxa olish uchun, ustiga bir marta bosing!")
+            "Botdan foydalanishda, muammoga duch kelsangiz @Ogabek_Sattorov ga murojaat qiling!")
     
     await message.answer("\n".join(text))
