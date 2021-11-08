@@ -480,9 +480,9 @@ async def calling(message: types.Message, state: FSMContext):
 @dp.message_handler(text=('font 28'))
 async def font1(message: types.Message):
     await message.answer("Biror so'z yoki matn kiriting!", reply_markup=back)
-    await Fonts.font_27.set()
+    await Fonts.font_28.set()
 
-@dp.message_handler(state=Fonts.font_27)
+@dp.message_handler(state=Fonts.font_28)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
         await message.answer("Asosiy menyudasiz!", reply_markup=fonts_menu)
@@ -491,4 +491,4 @@ async def calling(message: types.Message, state: FSMContext):
         await message.answer(f"Salom, {message.from_user.full_name}!", reply_markup=fonts_menu)
         await state.finish()
     else:
-        await message.reply(Font_27(message.text))
+        await message.reply(Font_28(message.text))
