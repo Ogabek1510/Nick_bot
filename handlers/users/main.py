@@ -443,7 +443,7 @@ async def calling(message: types.Message, state: FSMContext):
 
 
 
-@dp.message_handler(text=('font 26'))
+@dp.message_handler(text=('m̷̷i̷̷r̷̷a̷̷k̷̷i̷̷'))
 async def font1(message: types.Message):
     await message.answer("Biror so'z yoki matn kiriting!", reply_markup=back)
     await Fonts.font_26.set()
