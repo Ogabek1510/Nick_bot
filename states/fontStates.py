@@ -26,3 +26,4 @@ class Fonts(StatesGroup):
     font_23 = State()
     font_24 = State()
     font_25 = State()
+    font_26 = State()
