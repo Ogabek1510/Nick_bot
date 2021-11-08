@@ -478,3 +478,20 @@ def Font_28 (text):
     for key, value in fonts.items():
         word = word.replace(key, value)
     return (f'<code>{word}</code>')
+
+
+def Font_29 (text):
+    fonts = {
+        'a':'ᥲོ͢', 'b':'δོ͢', 'c':'ᥴོ͢', 'd':'ɗོ͢',
+        'e':'ᥱོ͢', 'f':'fོ͢', 'g':'gོ͢', 'h':'ɦོ͢',
+        'i':'iོ͢', 'j':'jོ͢', 'k':'κོ͢', 'l':'ᥣོ͢',
+        'm':'ⲙོ͢', 'n':'ᥒོ͢', 'o':'᧐ོ͢', 'p':'ρོ͢',
+        'q':'qོ͢ⓠ',  'r':'rོ͢', 's':'sོ͢', 't':'ᴛོ͢',
+        'u':'ᥙོ͢', 'v':'᥎ོ͢','w':'ᥕོ͢', 'x':'᥊ོ͢',
+        'y':'yོ͢', 'z':'ᤁོ͢'
+    }
+
+    word = text.lower()
+    for key, value in fonts.items():
+        word = word.replace(key, value)
+    return (f'<code>{word}</code>')
