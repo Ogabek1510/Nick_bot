@@ -1,3 +1,9 @@
+def Changer (text, fonts):
+    word = text.lower()
+    for key, value in fonts.items():
+        word = word.replace(key, value)
+    return (f'<code>{word}</code>')
+
 def Font_1 (text):
     fonts = {
         'a':'ᗩ', 'b':'ᗷ', 'c':'ᑕ', 'd':'ᗞ',
@@ -8,11 +14,7 @@ def Font_1 (text):
         'u':'ᑌ', 'v':'ᐯ', 'w':'ᗯ', 'x':'᙭',
         'y':'Ꭹ', 'z':'Ꮓ'
     }
-
-    word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    Changer(text, fonts)
 
 
 def Font_2 (text):
@@ -25,11 +27,7 @@ def Font_2 (text):
         'u':'ᴜ', 'v':'ᴠ', 'w':'ᴡ', 'x':'x',
         'y':'ʏ', 'z':'ᴢ'
     }
-
-    word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    Changer(text, fonts)
 
 
 def Font_3 (text):
