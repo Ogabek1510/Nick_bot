@@ -30,3 +30,8 @@ class Fonts(StatesGroup):
     font_27 = State()
     font_28 = State()
     font_29 = State()
+    font_30 = State()
+    font_31 = State()
+    font_32 = State()
+    font_33 = State()
+    font_34 = State()

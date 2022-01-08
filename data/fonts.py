@@ -1,3 +1,8 @@
+def Changer (fonts, word):
+    for key, value in fonts.items():
+        word = word.replace(key, value)
+    return (f'<code>{word}</code>')
+
 def Font_1 (text):
     fonts = {
         'a':'ᗩ', 'b':'ᗷ', 'c':'ᑕ', 'd':'ᗞ',
@@ -10,9 +15,7 @@ def Font_1 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_2 (text):
@@ -27,9 +30,7 @@ def Font_2 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_3 (text):
@@ -44,9 +45,7 @@ def Font_3 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_4 (text):
@@ -61,9 +60,7 @@ def Font_4 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_5 (text):
@@ -78,9 +75,7 @@ def Font_5 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_6 (text):
@@ -95,9 +90,7 @@ def Font_6 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_7 (text):
@@ -112,9 +105,7 @@ def Font_7 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_8 (text):
@@ -129,9 +120,7 @@ def Font_8 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_9 (text):
@@ -146,9 +135,7 @@ def Font_9 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_10 (text):
@@ -163,9 +150,7 @@ def Font_10 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_11 (text):
@@ -180,9 +165,7 @@ def Font_11 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_12 (text):
@@ -197,9 +180,7 @@ def Font_12 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_13 (text):
@@ -214,9 +195,7 @@ def Font_13 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_14 (text):
@@ -231,9 +210,7 @@ def Font_14 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_15 (text):
@@ -248,9 +225,7 @@ def Font_15 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_16 (text):
@@ -265,9 +240,7 @@ def Font_16 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_17 (text):
@@ -282,9 +255,7 @@ def Font_17 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 
@@ -300,9 +271,7 @@ def Font_18 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_19 (text):
@@ -317,9 +286,7 @@ def Font_19 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_20 (text):
@@ -334,9 +301,7 @@ def Font_20 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 
@@ -352,9 +317,7 @@ def Font_21 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_22 (text):
@@ -369,9 +332,7 @@ def Font_22 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_23 (text):
@@ -386,9 +347,7 @@ def Font_23 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 
@@ -404,9 +363,7 @@ def Font_24 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 
@@ -422,9 +379,7 @@ def Font_25 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 
@@ -440,9 +395,7 @@ def Font_26 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 
@@ -458,9 +411,7 @@ def Font_27 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_28 (text):
@@ -475,9 +426,7 @@ def Font_28 (text):
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
 
 
 def Font_29 (text):
@@ -486,12 +435,111 @@ def Font_29 (text):
         'e':'ᥱོ͢', 'f':'fོ͢', 'g':'gོ͢', 'h':'ɦོ͢',
         'i':'iོ͢', 'j':'jོ͢', 'k':'κོ͢', 'l':'ᥣོ͢',
         'm':'ⲙོ͢', 'n':'ᥒོ͢', 'o':'᧐ོ͢', 'p':'ρོ͢',
-        'q':'qོ͢ⓠ',  'r':'rོ͢', 's':'sོ͢', 't':'ᴛོ͢',
+        'q':'qོ͢',  'r':'rོ͢', 's':'sོ͢', 't':'ᴛོ͢',
         'u':'ᥙོ͢', 'v':'᥎ོ͢','w':'ᥕོ͢', 'x':'᥊ོ͢',
         'y':'yོ͢', 'z':'ᤁོ͢'
     }
 
     word = text.lower()
-    for key, value in fonts.items():
-        word = word.replace(key, value)
-    return (f'<code>{word}</code>')
+    return (Changer(fonts, word))
+
+
+
+
+def Font_30 (text):
+    fonts = {
+        'A': '𝓐', 'B': '𝓑', 'C': '𝓒', 'D': '𝓓',
+        'E': '𝓔', 'F': '𝓕', 'G': '𝓖', 'H': '𝓗',
+        'I': '𝓘', 'J': '𝓙', 'K': '𝓚', 'L': '𝓛',
+        'M': '𝓜', 'N': '𝓝', 'O': '𝓞', 'P': '𝓟',
+        'Q': '𝓠', 'R': '𝓡', 'S': '𝓢', 'T': '𝓣',
+        'U': '𝓤', 'V': '𝓥', 'W': '𝓦', 'X': '𝓧',
+        'Y': '𝓨', 'Z': '𝓩',
+
+        'a':'𝓪', 'b':'𝓫', 'c':'𝓬', 'd':'𝓭',
+        'e':'𝓮', 'f':'𝓯', 'g':'𝓰', 'h':'𝓱',
+        'i':'𝓲', 'j':'𝓳', 'k':'𝓴', 'l':'𝓵',
+        'm':'𝓶', 'n':'𝓷', 'o':'𝓸', 'p':'𝓹',
+        'q':'𝓺',  'r':'𝓻', 's':'𝓼', 't':'𝓽',
+        'u':'𝓾', 'v':'𝓿','w':'𝔀', 'x':'𝔁',
+        'y':'𝔂', 'z':'𝔃'
+    }
+
+    word = text
+    return (Changer(fonts, word))
+
+
+def Font_31 (text):
+    fonts = {
+        'a':'𝖆', 'b':'𝖇', 'c':'𝖈', 'd':'𝖉',
+        'e':'𝖊', 'f':'𝖋', 'g':'𝖌', 'h':'𝖍',
+        'i':'𝖎', 'j':'𝖏', 'k':'𝖐', 'l':'𝖑',
+        'm':'𝖒', 'n':'𝖓', 'o':'𝖔', 'p':'𝖕',
+        'q':'𝖖',  'r':'𝖗', 's':'𝖘', 't':'𝖙',
+        'u':'𝖚', 'v':'𝖛','w':'𝖜', 'x':'𝖝',
+        'y':'𝛄', 'z':'𝖟'
+    }
+
+    word = text.lower()
+    return (Changer(fonts, word))
+
+
+def Font_32 (text):
+    fonts = {
+        'A': '𝔸', 'B': '𝔹', 'C': 'ℂ', 'D': '𝔻',
+        'E': '𝔼', 'F': '𝔽', 'G': '𝔾', 'H': 'ℍ',
+        'I': '𝕀', 'J': '𝕁', 'K': '𝕂', 'L': '𝕃',
+        'M': '𝕄', 'N': 'ℕ', 'O': '𝕆', 'P': 'ℙ',
+        'Q': 'ℚ', 'R': 'ℝ', 'S': '𝕊', 'T': '𝕋',
+        'U': '𝕌', 'V': '𝕍', 'W': '𝕎', 'X': '𝕏',
+        'Y': '𝕐', 'Z': 'ℤ',
+
+        'a':'𝕒', 'b':'𝕓', 'c':'𝕔', 'd':'𝕕',
+        'e':'𝕖', 'f':'𝕗', 'g':'𝕘', 'h':'𝕙',
+        'i':'𝕚', 'j':'𝕛', 'k':'𝕜', 'l':'𝕝',
+        'm':'𝕞', 'n':'𝕟', 'o':'𝕠', 'p':'𝕡',
+        'q':'𝕢',  'r':'𝕣', 's':'𝕤', 't':'𝕥',
+        'u':'𝕦', 'v':'𝕧','w':'𝕨', 'x':'𝕩',
+        'y':'𝕪', 'z':'𝕫'
+    }
+
+    word = text
+    return (Changer(fonts, word))
+
+
+def Font_33 (text):
+    fonts = {
+        'A': '𝐴', 'B': '𝐵', 'C': '𝐶', 'D': '𝐷',
+        'E': '𝐸', 'F': '𝐹', 'G': '𝐺', 'H': '𝐻',
+        'I': '𝐼', 'J': '𝐽', 'K': '𝐾', 'L': '𝐿',
+        'M': '𝑀', 'N': '𝑁', 'O': '𝑂', 'P': '𝑃',
+        'Q': '𝑄', 'R': '𝑅', 'S': '𝑆', 'T': '𝑇',
+        'U': '𝑈', 'V': '𝑉', 'W': '𝑊', 'X': '𝑋',
+        'Y': '𝑌', 'Z': '𝑍',
+
+        'a':'𝑎', 'b':'𝑏', 'c':'𝑐', 'd':'𝑑',
+        'e':'𝑒', 'f':'𝑓', 'g':'𝑔', 'h':'ℎ',
+        'i':'𝑖', 'j':'𝑗', 'k':'𝑘', 'l':'𝑙',
+        'm':'𝑚', 'n':'𝑛', 'o':'𝑜', 'p':'𝑝',
+        'q':'𝑞',  'r':'𝑟', 's':'𝑠', 't':'𝑡',
+        'u':'𝑢', 'v':'𝑣','w':'𝑤', 'x':'𝑥',
+        'y':'𝑦', 'z':'𝑧'
+    }
+
+    word = text
+    return (Changer(fonts, word))
+
+
+def Font_34 (text):
+    fonts = {
+        'a':'ᗣ', 'b':'ᙖ', 'c':'ᙅ', 'd':'ᗪ',
+        'e':'ᙓ', 'f':'ᖴ', 'g':'ᘜ', 'h':'ᕼ',
+        'i':'ᖗ', 'j':'ᒍ', 'k':'Ꮶ', 'l':'ᒐ',
+        'm':'ᗰ', 'n':'ᘉ', 'o':'ᗝ', 'p':'ᗝ',
+        'q':'ᘯ',  'r':'ᖇ', 's':'ᔕ', 't':'ᙢ',
+        'u':'ᑌ', 'v':'ᐯ','w':'ᙡ', 'x':'ⵋ',
+        'y':'Ꮍ', 'z':'ᘔ'
+    }
+
+    word = text.lower()
+    return (Changer(fonts, word))
