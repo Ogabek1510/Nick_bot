@@ -1,4 +1,4 @@
-"""import logging
+import logging
 from aiogram import types
 from aiogram.dispatcher.handler import CancelHandler
 from aiogram.dispatcher.middlewares import BaseMiddleware
@@ -34,4 +34,4 @@ class BigBrother(BaseMiddleware):
 
         if not final_status:
             await update.message.answer(result, disable_web_page_preview=True)
-            raise CancelHandler()"""
+            raise CancelHandler()
