@@ -12,8 +12,8 @@ from utils.misc import subscription
 
 
 @dp.message_handler(CommandStart())
-"""async def show_channels(message: types.Message):
-    name = message.from_user.full_name
+async def show_channels(message: types.Message):
+    """name = message.from_user.full_name
     try:
         db.add_user(id=message.from_user.id, name=name)
     except sqlite3.IntegrityError as err:
