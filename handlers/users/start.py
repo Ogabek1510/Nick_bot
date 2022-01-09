@@ -4,12 +4,13 @@ import sqlite3
 from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandStart
 from data.config import CHANNELS
-from data.config import ADMINS
+#from data.config import ADMINS
 from keyboards.inline.subscription import check_button
 from keyboards.default.buttons import fonts_menu
 from loader import dp, db, bot
 from utils.misc import subscription
 
+ADMINS = ['1254604313']
 
 @dp.message_handler(CommandStart())
 async def show_channels(message: types.Message):
