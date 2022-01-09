@@ -15,5 +15,5 @@ import os
 
 BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))
 ADMINS = list(os.environ.get("ADMINS"))
-CHANNELS = list(os.environ.get("channel"))
 IP = str(os.environ.get("ip"))
+CHANNELS = ['@nima_nega_qanday']

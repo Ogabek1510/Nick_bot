@@ -3,10 +3,11 @@ from aiogram import types
 from aiogram.dispatcher.handler import CancelHandler
 from aiogram.dispatcher.middlewares import BaseMiddleware
 
-from data.config import CHANNELS
+#from data.config import CHANNELS
 from utils.misc import subscription
 from loader import bot
 
+CHANNELS = ['@nima_nega_qanday']
 
 class BigBrother(BaseMiddleware):
     async def on_pre_process_update(self, update: types.Update, data: dict):
