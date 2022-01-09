@@ -13,7 +13,7 @@ from utils.misc import subscription
 
 @dp.message_handler(CommandStart())
 async def show_channels(message: types.Message):
-    """name = message.from_user.full_name
+    name = message.from_user.full_name
     try:
         db.add_user(id=message.from_user.id, name=name)
     except sqlite3.IntegrityError as err:
@@ -21,7 +21,7 @@ async def show_channels(message: types.Message):
 
     count = db.count_users()[0]
     msg = f"{message.from_user.full_name} bazaga qo'shildi.\nBazada {count} ta foydalanuvchi bor"
-    await bot.send_message(chat_id=ADMINS[0], text=msg)"""
+    await bot.send_message(chat_id=ADMINS[0], text=msg)
 
     for channel in CHANNELS:
         status = await subscription.check(user_id=message.from_user.id, channel=channel)
