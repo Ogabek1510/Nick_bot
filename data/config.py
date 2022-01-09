@@ -15,5 +15,5 @@ import os
 
 BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))
 ADMINS = list(os.environ.get("ADMINS"))
-CHANNELS = str(os.environ.get("CHANNELS"))
+CHANNELS = list(os.environ.get("channels"))
 IP = str(os.environ.get("ip"))
