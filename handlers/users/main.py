@@ -2,6 +2,7 @@ from aiogram import types
 from data.fonts import *
 from aiogram.dispatcher import FSMContext
 from keyboards.default.buttons import fonts_menu, back
+from keyboards.inline.decoration import next_button
 from states.fontStates import Fonts
 from loader import dp
 
@@ -579,9 +580,23 @@ async def beauty(message: types.Message):
     await Fonts.beauty.set()
 
 @dp.message_handler(state=Fonts.beauty)
-async def calling(message: types.Message, state: FSMContext):
+async def Decor(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
         await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     else:
-        await message.reply(Beauty(message.text))
+        await message.reply(Beauty(message.text), reply_markup=next_button)
+
+@dp.callback_query_handler(text="next")
+async def checker(call: types.CallbackQuery):
+    txt = input("so'z kiriting")
+    sym = ['♀ ♀', '♫ ♫']
+
+    for symvol in sym:
+        done = symvol.replace(' ', txt)
+        await call.message.answer(done, reply_markup=next_button)
+        litter = input('keyingi')
+        if litter == "next":
+            continue
+        else:
+            break
