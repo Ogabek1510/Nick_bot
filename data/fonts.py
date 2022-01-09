@@ -543,3 +543,15 @@ def Font_34 (text):
 
     word = text.lower()
     return (Changer(fonts, word))
+
+
+def Decoration(sym, text):
+    for symvol in sym:
+        done = symvol.replace(' ', text)
+    return (f'<code>{done}</code>')
+
+def Beauty (text):
+    sym = {
+        '༺ ༻', '★᭄ꦿ᭄ꦿ ★᭄ꦿ᭄ꦿ'
+    }
+    return (Decoration(sym, text))

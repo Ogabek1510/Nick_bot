@@ -35,3 +35,4 @@ class Fonts(StatesGroup):
     font_32 = State()
     font_33 = State()
     font_34 = State()
+    beauty = State()

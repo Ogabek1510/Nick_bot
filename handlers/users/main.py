@@ -574,3 +574,17 @@ async def calling(message: types.Message, state: FSMContext):
 @dp.message_handler(text=("Ko'rinmas nik"))
 async def hide_font(message: types.Message):
     await message.answer("<code>ㅤㅤㅤ</code>", reply_markup=fonts_menu)
+
+
+@dp.message_handler(text=('Bezaklar'))
+async def beauty(message: types.Message):
+    await message.answer(font_txt, reply_markup=back)
+    await Fonts.beauty.set()
+
+@dp.message_handler(state=Fonts.beauty)
+async def calling(message: types.Message, state: FSMContext):
+    if message.text=='🔙 Ortga':
+        await message.answer(back_txt, reply_markup=fonts_menu)
+        await state.finish()
+    else:
+        await message.reply(Font_34(message.text))
