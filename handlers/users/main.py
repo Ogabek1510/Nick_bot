@@ -564,9 +564,6 @@ async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
         await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
-    elif message.text=='/start':
-        await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
-        await state.finish()
     else:
         await message.reply(Font_34(message.text))
 
