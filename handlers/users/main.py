@@ -141,13 +141,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ⓜⓘⓡⓐⓚⓘ'))
 async def font10(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_10.set()
 
 @dp.message_handler(state=Fonts.font_10)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -158,13 +158,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('M҈ I҈ R҈ A҈ K҈ I҈'))
 async def font11(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_11.set()
 
 @dp.message_handler(state=Fonts.font_11)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -175,13 +175,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('M҉ I҉ R҉ A҉ K҉ I҉'))
 async def font12(message: types.Message):
-    await message.answer("Biror so'z yoki matn kiriting!", reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_12.set()
 
 @dp.message_handler(state=Fonts.font_12)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -192,13 +192,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ꪑꪱꪚꪋઝꪱ'))
 async def font13(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_13.set()
 
 @dp.message_handler(state=Fonts.font_13)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -209,13 +209,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('M⃟ I⃟ R⃟ A⃟ K⃟ I⃟'))
 async def font14(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_14.set()
 
 @dp.message_handler(state=Fonts.font_14)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -226,13 +226,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('m̷i̷r̷a̷k̷i̷'))
 async def font15(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_15.set()
 
 @dp.message_handler(state=Fonts.font_15)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -243,13 +243,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('🄼🄸🅁🄰🄺🄸'))
 async def font16(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_16.set()
 
 @dp.message_handler(state=Fonts.font_16)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -260,13 +260,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ɱίરλκί'))
 async def font17(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_17.set()
 
 @dp.message_handler(state=Fonts.font_17)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -277,13 +277,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ᴹᴵᴿᴬᴷᴵ'))
 async def font18(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_18.set()
 
 @dp.message_handler(state=Fonts.font_18)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -295,13 +295,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ᎷᏆᎡᎪᏦᏆ'))
 async def font19(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_19.set()
 
 @dp.message_handler(state=Fonts.font_19)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -312,13 +312,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ꪑⲒℜꪋḰⲒ'))
 async def font20(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_20.set()
 
 @dp.message_handler(state=Fonts.font_20)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -330,13 +330,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('m꙰ i꙰ r꙰ a꙰ k꙰ i꙰'))
 async def font21(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_21.set()
 
 @dp.message_handler(state=Fonts.font_21)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -348,13 +348,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('MᤢྀIᤢྀRᤢྀAᤢྀKᤢྀIᤢྀ'))
 async def font22(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_22.set()
 
 @dp.message_handler(state=Fonts.font_22)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -366,13 +366,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('🇲 🇮 🇷 🇦 🇰 🇮'))
 async def font23(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_23.set()
 
 @dp.message_handler(state=Fonts.font_23)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -384,13 +384,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ⓜⓘⓡⓐⓚⓘ'))
 async def font24(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_24.set()
 
 @dp.message_handler(state=Fonts.font_24)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -402,13 +402,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('͜͡🅜͜͡🅘͜͡🅡͜͡🅐͜͡🅚͜͡🅘͜͡'))
 async def font25(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_25.set()
 
 @dp.message_handler(state=Fonts.font_25)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -420,13 +420,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('m̷̷i̷̷r̷̷a̷̷k̷̷i̷̷'))
 async def font26(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_26.set()
 
 @dp.message_handler(state=Fonts.font_26)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -437,13 +437,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ᴍ࿆ᮀɪ࿆ᮀʀ࿆ᮀᴀ࿆ᮀᴋ࿆ᮀɪ࿆ᮀ'))
 async def font27(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_27.set()
 
 @dp.message_handler(state=Fonts.font_27)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -454,13 +454,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ⲙྀᤢiྀᤢrྀᤢᥲྀᤢκྀᤢiྀᤢ'))
 async def font28(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_28.set()
 
 @dp.message_handler(state=Fonts.font_28)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -471,13 +471,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ⲙོ͢iོ͢rོ͢ᥲོ͢κོ͢iོ͢'))
 async def font29(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_29.set()
 
 @dp.message_handler(state=Fonts.font_29)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -488,13 +488,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('𝓜𝓲𝓻𝓪𝓴𝓲'))
 async def font30(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_30.set()
 
 @dp.message_handler(state=Fonts.font_30)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -505,13 +505,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('𝕸𝖎𝖗𝖆𝖐𝖎'))
 async def font31(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_31.set()
 
 @dp.message_handler(state=Fonts.font_31)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -522,7 +522,7 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('𝕄𝕚𝕣𝕒𝕜𝕚'))
 async def font32(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_32.set()
 
 @dp.message_handler(state=Fonts.font_32)
@@ -539,13 +539,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('𝑀𝑖𝑟𝑎𝑘𝑖'))
 async def font33(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_33.set()
 
 @dp.message_handler(state=Fonts.font_33)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
@@ -556,13 +556,13 @@ async def calling(message: types.Message, state: FSMContext):
 
 @dp.message_handler(text=('ᗰᖗᖇᗣᏦᖗ'))
 async def font34(message: types.Message):
-    await message.answer(back_txt, reply_markup=back)
+    await message.answer(font_txt, reply_markup=back)
     await Fonts.font_34.set()
 
 @dp.message_handler(state=Fonts.font_34)
 async def calling(message: types.Message, state: FSMContext):
     if message.text=='🔙 Ortga':
-        await message.answer(font_txt, reply_markup=fonts_menu)
+        await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     elif message.text=='/start':
         await message.answer(f"Salom, {message.from_user.full_name}\nO'zingizga yoqqan fontni tanlang!", reply_markup=fonts_menu)
