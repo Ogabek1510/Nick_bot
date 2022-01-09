@@ -587,16 +587,15 @@ async def Decor(message: types.Message, state: FSMContext):
     else:
         await message.reply(Beauty(message.text), reply_markup=next_button)
 
-@dp.callback_query_handler(text="next")
-async def checker(call: types.CallbackQuery):
-    txt = input("so'z kiriting")
-    sym = ['♀ ♀', '♫ ♫']
-
-    for symvol in sym:
-        done = symvol.replace(' ', txt)
-        await call.message.answer(done, reply_markup=next_button)
-        litter = input('keyingi')
-        if litter == "next":
-            continue
-        else:
-            break
+    @dp.callback_query_handler(text="next")
+    async def Checker(call: types.CallbackQuery):
+        txt = message.text
+        sym = ['♀ ♀', '♫ ♫']
+        for symvol in sym:
+            done = symvol.replace(' ', txt)
+            await call.message.answer(done, reply_markup=next_button)
+            litter = call.data
+            if litter == "next":
+                continue
+            else:
+                break
