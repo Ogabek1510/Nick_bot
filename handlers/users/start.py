@@ -23,6 +23,9 @@ async def show_channels(message: types.Message):
     msg = f"{message.from_user.full_name} bazaga qo'shildi.\nBazada {count} ta foydalanuvchi bor"
     await bot.send_message(chat_id=ADMINS[0], text=msg)"""
 
+    msg = f"{message.from_user.full_name} bazaga qo'shildi"
+    await bot.send_message(chat_id=ADMINS[0], text=msg)
+
     for channel in CHANNELS:
         status = await subscription.check(user_id=message.from_user.id, channel=channel)
         if status:
