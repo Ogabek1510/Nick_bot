@@ -8,12 +8,12 @@
 #BOT_TOKEN = env.str("BOT_TOKEN")  # Bot toekn
 #ADMINS = env.list("ADMINS")  # adminlar ro'yxati
 #IP = env.str("ip")  # Xosting ip manzili
-#CHANNELS = ['@nima_nega_qanday']
+CHANNELS = ['@nima_nega_qanday']
 
 
 import os
 
 BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))
 ADMINS = list(os.environ.get("ADMINS"))
-CHANNELS = ['@nima_nega_qanday']
+CHANNELS = list(os.environ.get("channel"))
 IP = str(os.environ.get("ip"))
