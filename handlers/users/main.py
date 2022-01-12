@@ -581,17 +581,18 @@ async def beauty(message: types.Message):
 
 @dp.message_handler(state=Fonts.beauty)
 async def Decor(message: types.Message, state: FSMContext):
-    sym = ['༺txt༻', '꧁༺txt༻꧂', ' ★᭄ꦿ᭄ꦿtxt★᭄ꦿ᭄ꦿ', '🌸 ⃝❤️txt🖤 ⃝🌸', '꯭꯭➣꯭꯭꙰🦋꙰🌸꙰ txt🌸꙰🕊️꙰', '𖣘‌ ‌✯txt✯‌ ‌𖣘', '1ᬼ⃝⃟⃘⃬꙰꙲꯭❤️⃝⃟⃬⃩🌸txt🌸⃝⃟⃘⃬꙰꙲꯭꯭❤️⃝⃟⃬⃩', '꯭🧸⃝🍫⃝  ꯭❀txt❀꯭ ᬼ꯭⃝⃪⃡🌸⃝🐻', '꧁🌺●•txt•●🌺꧂', '✸ ู๊ ู๊ ู๊ ู๊✪txt✪ ู๊ ู๊ ู๊ ู๊✸', '🌸   ♡ΞtxtΞ♡ ู๊ ู๊ ู๊🌸']
+    sym = ['༺txt༻', '꧁༺txt༻꧂', ' ★᭄ꦿ᭄ꦿtxt★᭄ꦿ᭄ꦿ', '🌸 ⃝❤️txt🖤 ⃝🌸', '꯭꯭➣꯭꯭꙰🦋꙰🌸꙰ txt🌸꙰🕊️꙰',
+           '𖣘‌ ‌✯txt✯‌ ‌𖣘', '1ᬼ⃝⃟⃘⃬꙰꙲꯭❤️⃝⃟⃬⃩🌸txt🌸⃝⃟⃘⃬꙰꙲꯭꯭❤️⃝⃟⃬⃩', '꯭🧸⃝🍫⃝  ꯭❀txt❀꯭ ᬼ꯭⃝⃪⃡🌸⃝🐻',
+           '꧁🌺●•txt•●🌺꧂', '✸ ู๊ ู๊ ู๊ ู๊✪txt✪ ู๊ ู๊ ู๊ ู๊✸', '🌸   ♡ΞtxtΞ♡ ู๊ ู๊ ู๊🌸']
     global nicks
     nicks = (Decoration(message.text, sym))
     if message.text=='🔙 Ortga':
         await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     else:
-        await message.answer(nicks, reply_markup=next_button)
+        await message.answer(nicks[0], reply_markup=next_button)
 
 @dp.callback_query_handler(text="next", state=Fonts.beauty)
 async def Checker(call: types.CallbackQuery):
     for text in nicks:
-        await call.message.delete()
         await call.message.answer(text, reply_markup=next_button)
