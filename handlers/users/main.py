@@ -596,3 +596,4 @@ async def Decor(message: types.Message, state: FSMContext):
 async def Checker(call: types.CallbackQuery):
     for text in nicks:
         await call.message.answer(text, reply_markup=next_button)
+        await call.message.delete()
