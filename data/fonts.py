@@ -545,7 +545,10 @@ def Font_34 (text):
     return (Changer(fonts, word))
 
 
-def Decoration(txt, sym):
+def Decoration(txt):
+    sym = ['༺txt༻', '꧁༺txt༻꧂', ' ★᭄ꦿ᭄ꦿtxt★᭄ꦿ᭄ꦿ', '🌸⃝⃟⃘⃬꙰꙲❤️txt🖤⃝⃟⃘⃬꙰꙲🌸', '꯭꯭➣꯭꯭꙰🦋꙰🌸꙰ txt🌸꙰🕊️꙰',
+           '𖣘‌ ‌✯txt✯‌ ‌𖣘', 'ᬼ⃝⃟⃘⃬꙰꙲꯭❤️⃝⃟⃬⃩🌸txt🌸⃝⃟⃘⃬꙰꙲꯭꯭❤️⃝⃟⃬⃩', '🧸ᬼ⃝⃟⃘⃬🍫꙰꙲꯭❀txt❀꯭ ᬼ꯭⃝⃪⃡🌸⃝🐻',
+           '꧁🌺●•txt•●🌺꧂', '✸ ู๊ ู๊ ู๊ ู๊✪txt✪ ู๊ ู๊ ู๊ ู๊✸', '🌸ู๊ ู๊ ู๊♡ΞtxtΞ♡ู๊ ู๊ ู๊🌸']
     done = []
     for symvol in sym:
         nick = symvol.replace("txt", txt)
