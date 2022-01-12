@@ -566,7 +566,7 @@ async def calling(message: types.Message, state: FSMContext):
         await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     else:
-        await message.reply(Font_34(message.text))
+        await message.reply(Font_34())
 
 
 @dp.message_handler(text=("Ko'rinmas nik"))
@@ -581,21 +581,17 @@ async def beauty(message: types.Message):
 
 @dp.message_handler(state=Fonts.beauty)
 async def Decor(message: types.Message, state: FSMContext):
+    sym = ['༺ ༻', '★᭄ꦿ᭄ꦿ ★᭄ꦿ᭄ꦿ']
+    global nicks
+    nicks = (Decoration(message.text, sym))
     if message.text=='🔙 Ortga':
         await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     else:
-        await message.reply(Beauty(message.text), reply_markup=next_button)
-    global txt
-    txt = message.text
-@dp.callback_query_handler(text="next")
+        await message.reply(nicks[0], reply_markup=next_button)
+
+@dp.callback_query_handler(text="next", state=Fonts.beauty)
 async def Checker(call: types.CallbackQuery):
-       sym = ['♀ ♀', '♫ ♫']
-       for symvol in sym:
-           done = symvol.replace(' ', txt)
-           await call.message.answer(done, reply_markup=next_button)
-           litter = call.data
-           if litter == "next":
-                continue
-           else:
-                break
+    for text in nicks:
+        await call.message.reply(text, reply_markup=next_button)
+

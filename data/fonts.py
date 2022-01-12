@@ -545,13 +545,9 @@ def Font_34 (text):
     return (Changer(fonts, word))
 
 
-def Decoration(sym, text):
+def Decoration(txt, sym):
+    done = []
     for symvol in sym:
-        done = symvol.replace(' ', text)
-    return (f'<code>{done}</code>')
-
-def Beauty (text):
-    sym = {
-        '༺ ༻', '★᭄ꦿ᭄ꦿ ★᭄ꦿ᭄ꦿ'
-    }
-    return (Decoration(sym, text))
+        nick = symvol.replace(" ", txt)
+        done.append(nick)
+    return (done)
