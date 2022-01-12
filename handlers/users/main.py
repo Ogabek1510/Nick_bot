@@ -588,11 +588,11 @@ async def Decor(message: types.Message, state: FSMContext):
         await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     else:
-        await message.reply(nicks[0], reply_markup=next_button)
+        await message.answer(nicks[0], reply_markup=next_button)
 
 @dp.callback_query_handler(text="next", state=Fonts.beauty)
 async def Checker(call: types.CallbackQuery):
     await call.message.delete()
     for text in nicks:
-        await call.message.reply(text, reply_markup=next_button)
+        await call.message.answer(text, reply_markup=next_button)
 
