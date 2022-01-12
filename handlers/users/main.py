@@ -581,7 +581,7 @@ async def beauty(message: types.Message):
 
 @dp.message_handler(state=Fonts.beauty)
 async def Decor(message: types.Message, state: FSMContext):
-    sym = ['༺/༻', '★᭄ꦿ᭄ꦿ ★᭄ꦿ᭄ꦿ', '★᭄ꦿ᭄ꦿ ★᭄ꦿ᭄ꦿ', '🌸⃝❤️ 🖤 ⃝🌸', '➣꯭꯭꙰🦋꙰🌸꙰ 🌸꙰🕊️꙰', '𖣘‌ ‌✯ ✯‌ ‌𖣘', '1ᬼ⃝⃟⃘⃬꙰꙲꯭❤️⃝⃟⃬⃩🌸 🌸⃝⃟⃘⃬꙰꙲꯭꯭❤️⃝⃟⃬⃩', '꯭🧸⃝🍫⃝ ꯭❀  ❀꯭ᬼ꯭⃝⃪⃡🌸⃝🐻', '꧁🌺●• •●🌺꧂', '✸ ู๊ ู๊ ู๊ ู๊✪ ✪ ู๊ ู๊ ู๊ ู๊✸', '🌸ู ู๊ ู๊♡Ξ Ξ♡ ู๊ ู๊ ู๊🌸']
+    sym = ['༺txt༻', '꧁༺txt༻꧂', ' ★᭄ꦿ᭄ꦿtxt★᭄ꦿ᭄ꦿ', '🌸 ⃝❤️txt🖤 ⃝🌸', '꯭꯭➣꯭꯭꙰🦋꙰🌸꙰ txt🌸꙰🕊️꙰', '𖣘‌ ‌✯txt✯‌ ‌𖣘', '1ᬼ⃝⃟⃘⃬꙰꙲꯭❤️⃝⃟⃬⃩🌸txt🌸⃝⃟⃘⃬꙰꙲꯭꯭❤️⃝⃟⃬⃩', '꯭🧸⃝🍫⃝  ꯭❀txt❀꯭ ᬼ꯭⃝⃪⃡🌸⃝🐻', '꧁🌺●•txt•●🌺꧂', '✸ ู๊ ู๊ ู๊ ู๊✪txt✪ ู๊ ู๊ ู๊ ู๊✸', '🌸   ♡ΞtxtΞ♡ ู๊ ู๊ ู๊🌸']
     global nicks
     nicks = (Decoration(message.text, sym))
     if message.text=='🔙 Ortga':

@@ -548,6 +548,6 @@ def Font_34 (text):
 def Decoration(txt, sym):
     done = []
     for symvol in sym:
-        nick = symvol.replace(" ", txt)
+        nick = symvol.replace("txt", txt)
         done.append(nick)
     return (done)
