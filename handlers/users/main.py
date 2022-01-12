@@ -593,5 +593,6 @@ async def Decor(message: types.Message, state: FSMContext):
 @dp.callback_query_handler(text="next", state=Fonts.beauty)
 async def Checker(call: types.CallbackQuery):
     for text in nicks:
+        await call.message.delete()
         await call.message.answer(text, reply_markup=next_button)
     await call.message.delete()
