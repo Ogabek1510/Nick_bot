@@ -590,4 +590,4 @@ async def Decor(message: types.Message, state: FSMContext):
     else:
         for text in nicks:
             await message.answer(text)
-            await message.answer(reply_markup=back)
+        await message.answer(reply_markup=back)
