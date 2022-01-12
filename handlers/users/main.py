@@ -2,7 +2,6 @@ from aiogram import types
 from data.fonts import *
 from aiogram.dispatcher import FSMContext
 from keyboards.default.buttons import fonts_menu, back
-from keyboards.inline.decoration import next_button
 from states.fontStates import Fonts
 from loader import dp
 
@@ -584,16 +583,11 @@ async def Decor(message: types.Message, state: FSMContext):
     sym = ['༺txt༻', '꧁༺txt༻꧂', ' ★᭄ꦿ᭄ꦿtxt★᭄ꦿ᭄ꦿ', '🌸 ⃝❤️txt🖤 ⃝🌸', '꯭꯭➣꯭꯭꙰🦋꙰🌸꙰ txt🌸꙰🕊️꙰',
            '𖣘‌ ‌✯txt✯‌ ‌𖣘', '1ᬼ⃝⃟⃘⃬꙰꙲꯭❤️⃝⃟⃬⃩🌸txt🌸⃝⃟⃘⃬꙰꙲꯭꯭❤️⃝⃟⃬⃩', '꯭🧸⃝🍫⃝  ꯭❀txt❀꯭ ᬼ꯭⃝⃪⃡🌸⃝🐻',
            '꧁🌺●•txt•●🌺꧂', '✸ ู๊ ู๊ ู๊ ู๊✪txt✪ ู๊ ู๊ ู๊ ู๊✸', '🌸   ♡ΞtxtΞ♡ ู๊ ู๊ ู๊🌸']
-    global nicks
     nicks = (Decoration(message.text, sym))
     if message.text=='🔙 Ortga':
         await message.answer(back_txt, reply_markup=fonts_menu)
         await state.finish()
     else:
-        await message.answer(nicks[0], reply_markup=next_button)
-
-@dp.callback_query_handler(text="next", state=Fonts.beauty)
-async def Checker(call: types.CallbackQuery):
-    for text in nicks:
-        await call.message.answer(text, reply_markup=next_button)
-    await call.message.delete()
+        for text in nicks:
+            await message.answer(text)
+            await message.answer(reply_markup=back)
