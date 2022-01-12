@@ -580,7 +580,7 @@ async def beauty(message: types.Message):
 
 @dp.message_handler(state=Fonts.beauty)
 async def Decor(message: types.Message, state: FSMContext):
-    sym = ['༺txt༻', '꧁༺txt༻꧂', ' ★᭄ꦿ᭄ꦿtxt★᭄ꦿ᭄ꦿ', '🌸 ⃝❤️txt🖤 ⃝🌸', '꯭꯭➣꯭꯭꙰🦋꙰🌸꙰ txt🌸꙰🕊️꙰',
+    sym = ['༺txt༻', '꧁༺txt༻꧂', ' ★᭄ꦿ᭄ꦿtxt★᭄ꦿ᭄ꦿ', '🌸⃝⃟⃘⃬꙰꙲❤️txt🖤⃝⃟⃘⃬꙰꙲🌸', '꯭꯭➣꯭꯭꙰🦋꙰🌸꙰ txt🌸꙰🕊️꙰',
            '𖣘‌ ‌✯txt✯‌ ‌𖣘', 'ᬼ⃝⃟⃘⃬꙰꙲꯭❤️⃝⃟⃬⃩🌸txt🌸⃝⃟⃘⃬꙰꙲꯭꯭❤️⃝⃟⃬⃩', '🧸ᬼ⃝⃟⃘⃬🍫꙰꙲꯭❀txt❀꯭ ᬼ꯭⃝⃪⃡🌸⃝🐻',
            '꧁🌺●•txt•●🌺꧂', '✸ ู๊ ู๊ ู๊ ู๊✪txt✪ ู๊ ู๊ ู๊ ู๊✸', '🌸ู๊ ู๊ ู๊♡ΞtxtΞ♡ู๊ ู๊ ู๊🌸']
     nicks = (Decoration(message.text, sym))
